@@ -7,7 +7,7 @@ spec:
   hosts:
   - test-app.cmt-play.apa.comcast.net
   gateways:
-  - istio-system/cmt-wildcard
+  - test-app-gateway
   http:
   - route:
     - destination:
