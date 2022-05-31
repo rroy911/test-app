@@ -5,7 +5,7 @@ metadata:
   namespace: test-app
 spec:
   hosts:
-  - test-app.cmt-play.apa.comcast.net
+  - test-app.svc.cluster.local
   gateways:
   - test-app-gateway
   http:
